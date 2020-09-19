@@ -105,24 +105,6 @@
       ]
     },
     {
-      "name": "pandocarm64",
-      "only-arches": [
-        "aarch64"
-      ],
-      "buildsystem": "simple",
-      "cleanup": ["pandoc-2.9.2-aarch64"],
-      "build-commands": [
-        "cp pandoc-2.9.2-aarch64 /app/bin/pandoc"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://github.com/arm4rpi/pandoc-arm/releases/download/v0.1/pandoc-2.9.2-aarch64-static.tar.gz",
-          "sha256": "543c06f8a514cc737fcc1c146fc1426fd0794c29351c2608e8df55828fc2e35d"
-        }
-      ]
-    },
-    {
       "name":"thiefmd",
       "buildsystem":"meson",
       "sources":[
