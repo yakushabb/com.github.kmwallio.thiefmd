@@ -83,13 +83,35 @@
       }]
     },
     {
+      "name": "pandoc",
+      "only-arches": [
+        "x86_64"
+      ],
+      "buildsystem": "simple",
+      "cleanup": [
+        "/bin/pandoc",
+        "/bin/pandoc-siteproc"
+      ],
+      "build-commands": [
+        "cp bin/pandoc /app/bin/pandoc",
+        "cp bin/pandoc-citeproc /app/bin/pandoc-citeproc"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/jgm/pandoc/releases/download/2.10.1/pandoc-2.10.1-linux-amd64.tar.gz",
+          "sha256": "a3ab481ad53f5568d7ec5263fbdd3478fb320d13b5d61a92fb5cee410186bd86"
+        }
+      ]
+    },
+    {
       "name":"thiefmd",
       "buildsystem":"meson",
       "sources":[
         {
           "type":"archive",
-          "url":"https://github.com/kmwallio/ThiefMD/releases/download/v0.0.7-orderlyfashion/com.github.kmwallio.thiefmd-0.0.7.tar.xz",
-          "sha256": "865fb794e1c757b32fe8c52a0238076baf0c8794e5d1e8a5f0f3eb2a6e2b5f50"
+          "url":"https://github.com/kmwallio/ThiefMD/releases/download/v0.0.9-oops/com.github.kmwallio.thiefmd-0.0.9.tar.xz",
+          "sha256": "e6801e4f9d07386c76537153fb283bfc5d977bf3b1a4ea1b75e0e6fd05b1bf92"
         }
       ]
     }
