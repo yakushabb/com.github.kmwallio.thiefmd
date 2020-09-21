@@ -88,13 +88,9 @@
         "x86_64"
       ],
       "buildsystem": "simple",
-      "cleanup": [
-        "/bin/pandoc",
-        "/bin/pandoc-siteproc"
-      ],
       "build-commands": [
-        "cp bin/pandoc /app/bin/pandoc",
-        "cp bin/pandoc-citeproc /app/bin/pandoc-citeproc"
+        "mv -v bin/pandoc /app/bin/pandoc",
+        "mv -v bin/pandoc-citeproc /app/bin/pandoc-citeproc"
       ],
       "sources": [
         {
