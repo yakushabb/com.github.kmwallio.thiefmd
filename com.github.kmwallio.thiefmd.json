@@ -1,7 +1,7 @@
 {
   "app-id":"com.github.kmwallio.thiefmd",
   "runtime":"org.gnome.Platform",
-  "runtime-version":"3.36",
+  "runtime-version":"3.38",
   "sdk":"org.gnome.Sdk",
   "command":"com.github.kmwallio.thiefmd",
   "finish-args":[
@@ -29,16 +29,6 @@
     "*.la"
   ],
   "modules":[
-    {
-      "name": "granite",
-      "buildsystem": "meson",
-      "cleanup": ["/bin", "/share/applications"],
-      "sources": [{
-        "type": "archive",
-        "url": "https://github.com/elementary/granite/archive/5.4.0.tar.gz",
-        "sha256": "8194031cac3b87d84a3fab9c30270485ce73f8b8ec23f26c9152b6859c8a18fd"
-      }]
-    },
     {
       "name": "gtksourceview",
       "config-opts": [
@@ -106,8 +96,8 @@
       "sources":[
         {
           "type":"archive",
-          "url":"https://github.com/kmwallio/ThiefMD/releases/download/v0.0.9-oops/com.github.kmwallio.thiefmd-0.0.9.tar.xz",
-          "sha256": "e6801e4f9d07386c76537153fb283bfc5d977bf3b1a4ea1b75e0e6fd05b1bf92"
+          "url":"https://github.com/kmwallio/ThiefMD/releases/download/v0.0.10-lookingood/com.github.kmwallio.thiefmd-0.0.10.tar.xz",
+          "sha256": "84975cc07e4b34dc145e3dd6d190dce98fdf014f75eea7d2eb6742aee718101f"
         }
       ]
     }
