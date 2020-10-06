@@ -96,8 +96,8 @@
       "sources":[
         {
           "type":"archive",
-          "url":"https://github.com/kmwallio/ThiefMD/releases/download/v0.0.10-lookingood/com.github.kmwallio.thiefmd-0.0.10.tar.xz",
-          "sha256": "84975cc07e4b34dc145e3dd6d190dce98fdf014f75eea7d2eb6742aee718101f"
+          "url":"https://github.com/kmwallio/ThiefMD/releases/download/v0.0.12-luminance/com.github.kmwallio.thiefmd-0.0.12.tar.xz",
+          "sha256": "bac67bcf5680f871d236c58aada7326a2a09ad875d1e2b9b412418bee4aaf9b2"
         }
       ]
     }
