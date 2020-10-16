@@ -60,14 +60,14 @@
       "name": "discount",
       "buildsystem": "simple",
       "build-commands": [
-        "./configure.sh --prefix=/app --enable-all-features --with-fenced-code --shared",
+        "./configure.sh --prefix=/app --enable-all-features --github-checkbox --with-fenced-code --shared",
         "sed -e 's|/sbin/ldconfig|/sbin/ldconfig -n|' -i librarian.sh",
         "make install"
       ],
       "sources": [{
         "type": "archive",
-        "url": "http://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.4.tar.bz2",
-        "sha256": "74fd1e3cc2b4eacf7325d3fd89df38b589db60d5dd0f4f14a0115f7da5e230a5"
+        "url": "http://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.6.tar.bz2",
+        "sha256": "ae68a4832ff8e620286304ec525c1fe8957be4d8f1e774588eb03d1c3deb74a7"
       }]
     },
     {
@@ -94,8 +94,8 @@
       "sources":[
         {
           "type":"archive",
-          "url":"https://github.com/kmwallio/ThiefMD/releases/download/v0.1.0-inandout/com.github.kmwallio.thiefmd-0.1.0.tar.xz",
-          "sha256": "726a1ef437fe74b14287eefcd1dc0343f1827ba7f7553f6663395dc4b72df68e"
+          "url":"https://github.com/kmwallio/ThiefMD/releases/download/v0.1.1-notnanoprep/com.github.kmwallio.thiefmd-0.1.1.tar.xz",
+          "sha256": "3367f4429f1f5547a55d687b1df8eac48a2296d442e9b1254946daeefb116bc2"
         }
       ]
     }
