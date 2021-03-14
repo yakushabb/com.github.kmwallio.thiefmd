@@ -110,8 +110,8 @@
             "buildsystem": "meson",
             "sources": [{
                 "type": "archive",
-                "url": "https://github.com/kmwallio/ThiefMD/releases/download/v0.1.6-finess/com.github.kmwallio.thiefmd-0.1.6.tar.xz",
-                "sha256": "7def75b3457c2fe8d2e5fb0e7923273c0e3a5c95dae1e2838cb6dd0344fba2c4"
+                "url": "https://github.com/kmwallio/ThiefMD/releases/download/v0.1.7-subtle/com.github.kmwallio.thiefmd-0.1.7.tar.xz",
+                "sha256": "5bd65a9e01abc29bb942acb8156918b926c1c3ba43a64739cd5541ce5ca19025"
             }]
         }
     ]
