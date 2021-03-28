@@ -109,8 +109,8 @@
             "buildsystem": "meson",
             "sources": [{
                 "type": "archive",
-                "url": "https://github.com/kmwallio/ThiefMD/releases/download/v0.2.0-creators-edition/com.github.kmwallio.thiefmd-0.2.0.tar.xz",
-                "sha256": "ca41e24e0c9b9b6bff7dbd9aad5bce80b4b4e06c06f8864d667c29ea2bf3a842"
+                "url": "https://github.com/kmwallio/ThiefMD/releases/download/v0.2.2-fiximgup/com.github.kmwallio.thiefmd-0.2.2.tar.xz",
+                "sha256": "0441c967007f7e6eee5e94dd03236991e84264ec2a9d6b440214a773aff664e1"
             }]
         }
     ]
