@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.kmwallio.thiefmd",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "41",
     "sdk": "org.gnome.Sdk",
     "command": "com.github.kmwallio.thiefmd",
     "finish-args": [
@@ -190,8 +190,8 @@
             "buildsystem": "meson",
             "sources": [{
                 "type": "archive",
-                "url": "https://github.com/kmwallio/ThiefMD/releases/download/v0.2.4-easypdf/com.github.kmwallio.thiefmd-0.2.4.tar.xz",
-                "sha256": "8df45f59459659c4b890b9786320d2222469450569012db4bf7021f2026d7326"
+                "url": "https://github.com/kmwallio/ThiefMD/releases/download/v0.2.5-stability/com.github.kmwallio.thiefmd-0.2.5.tar.xz",
+                "sha256": "4693d764654033d0910089d463ce4077a745c2c583ceed0093bc2afe3bf9dd9b"
             }]
         }
     ]
