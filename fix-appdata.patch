@@ -1,0 +1,27 @@
+From cd56248d25d328cb4c5b6349315587271da5002d Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sat, 16 Nov 2024 19:50:52 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ data/com.github.kmwallio.thiefmd.appdata.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/data/com.github.kmwallio.thiefmd.appdata.xml b/data/com.github.kmwallio.thiefmd.appdata.xml
+index bfaf041..9a5dd1f 100644
+--- a/data/com.github.kmwallio.thiefmd.appdata.xml
++++ b/data/com.github.kmwallio.thiefmd.appdata.xml
+@@ -75,8 +75,8 @@
+     <release version="0.2.7" date="2023-06-03" urgency="low">
+       <description>
+         <p>Like your files to fly solo? Open files from your file manager. Even abandon our library concept if you want to.</p>
+-        <p>We also have a new out of box experience and some <i>hopefully</i> UI improvements.</p>
+-        <p><b>Breaking Change</b> We've updated the Wordpress API. You now have to use Application Passwords.</p>
++        <p>We also have a new out of box experience and some UI improvements.</p>
++        <p>Breaking Change: We've updated the Wordpress API. You now have to use Application Passwords.</p>
+         <ul>
+           <li>Add support for single file opening</li>
+           <li>Fix some null references</li>
+--
+libgit2 1.7.2
+
